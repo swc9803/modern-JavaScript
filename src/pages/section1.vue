@@ -1,24 +1,25 @@
 <template>
+    <!-- array set keys values entries -->
     <p>set</p>
     {{ arr2 }}
 </template>
 
 <script setup>
-// import { ref } from 'vue'
-// const arrValue = ref()
+import { ref } from 'vue'
+const arrValue = ref()
 
 /**
- * @배열
+ * @array
  */
-// const arr1 = ['a', 'b', 'c', 'd']
-// for (let i = 0; i < arr1.length; i++) {
-//   arrValue.value = arr1[i]
-//   console.log(arrValue.value)
-// }
-// // 위와 같다
-// arr1.forEach(val => {
-//   console.log(val)
-// })
+const arr1 = ['a', 'b', 'c', 'd']
+for (let i = 0; i < arr1.length; i++) {
+  arrValue.value = arr1[i]
+  console.log(arrValue.value)
+}
+// 위와 같다
+arr1.forEach(val => {
+  console.log(val)
+})
 
 /**
  * @set
@@ -35,12 +36,12 @@ arr2.add('D')
 arr2.delete('B')
 
 // forEach와 동일
-// for (const i of arr2) {
-//   console.log(i)
-// }
-// // spread 연산자 > 이터러블 객체의 요소 리턴
-// const setToArray = [...arr2]
-// console.log(setToArray[0])
+for (const i of arr2) {
+  console.log(i)
+}
+// spread 연산자 > 이터러블 객체의 요소 리턴
+const setToArray = [...arr2]
+console.log(setToArray[0])
 
 /**
  * @keys메서드
@@ -71,8 +72,4 @@ const entries = arr2.entries()
 for (const i of entries) {
   console.log(i)
 }
-</script>
-
-<script setup>
-
 </script>
