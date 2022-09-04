@@ -1,6 +1,6 @@
 <template>
     <!-- 프로토타입 -->
-    <p>{{ fruit }}</p>
+    <p>{{ Animal }}</p>
 </template>
 
 <script setup>
@@ -30,4 +30,15 @@ const lion = new Animal()
 console.log(tiger)
 console.log(lion)
 
+Animal.prototype.Run = function () {
+  return 'Running'
+}
+console.log(tiger.Run())
+console.log(lion.Run())
+tiger.Run = function () {
+  return 'Tiger Running'
+}
+console.log('=========================')
+console.log(tiger.Run())
+console.log(lion.Run())
 </script>
