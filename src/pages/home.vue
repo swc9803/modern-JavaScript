@@ -20,7 +20,10 @@ const menus = ([
   { name: 'section3', link: 's3' },
   { name: 'section4', link: 's4' },
   { name: 'section5', link: 's5' },
-  { name: 'section6', link: 's6' }
+  { name: 'section6', link: 's6' },
+  { name: 'section7', link: 's7' },
+  { name: 'section8', link: 's8' },
+  { name: 'section9', link: 's9' }
 ])
 </script>
 
