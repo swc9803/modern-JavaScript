@@ -14,8 +14,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const menus = ref([
+const menus = ([
   { name: 'section1', link: 's1' },
   { name: 'section2', link: 's2' },
   { name: 'section3', link: 's3' },
