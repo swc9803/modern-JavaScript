@@ -9,6 +9,11 @@ import section6 from '../pages/section6.vue'
 import section7 from '../pages/section7.vue'
 import section8 from '../pages/section8.vue'
 import section9 from '../pages/section9.vue'
+import section10 from '../pages/section10.vue'
+import section11 from '../pages/section11.vue'
+import section12 from '../pages/section12.vue'
+import section13 from '../pages/section13.vue'
+import section14 from '../pages/section14.vue'
 
 const routes = [
   {
@@ -60,6 +65,31 @@ const routes = [
     path: '/s9',
     name: 's9',
     component: section9
+  },
+  {
+    path: '/s10',
+    name: 's10',
+    component: section10
+  },
+  {
+    path: '/s11',
+    name: 's11',
+    component: section11
+  },
+  {
+    path: '/s12',
+    name: 's12',
+    component: section12
+  },
+  {
+    path: '/s13',
+    name: 's13',
+    component: section13
+  },
+  {
+    path: '/s14',
+    name: 's14',
+    component: section14
   }
 ]
 

@@ -5,7 +5,7 @@
             <ul>
                 <li v-for="menu in menus" :key="menu.id">
                     <router-link :to="{ path:menu.link }">
-                        {{ menu.name }}
+                        {{ menu.link }}
                     </router-link>
                 </li>
             </ul>
@@ -15,15 +15,20 @@
 
 <script setup>
 const menus = ([
-  { name: 'section1', link: 's1' },
-  { name: 'section2', link: 's2' },
-  { name: 'section3', link: 's3' },
-  { name: 'section4', link: 's4' },
-  { name: 'section5', link: 's5' },
-  { name: 'section6', link: 's6' },
-  { name: 'section7', link: 's7' },
-  { name: 'section8', link: 's8' },
-  { name: 'section9', link: 's9' }
+  { link: 's1' },
+  { link: 's2' },
+  { link: 's3' },
+  { link: 's4' },
+  { link: 's5' },
+  { link: 's6' },
+  { link: 's7' },
+  { link: 's8' },
+  { link: 's9' },
+  { link: 's10' },
+  { link: 's11' },
+  { link: 's12' },
+  { link: 's13' },
+  { link: 's14' }
 ])
 </script>
 
