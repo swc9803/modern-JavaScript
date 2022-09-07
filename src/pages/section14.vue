@@ -1,5 +1,5 @@
 <template>
-    <!-- for of, toString -->
+    <!-- for of, toString iterator-->
     <p>{{  }}</p>
 </template>
 
@@ -31,4 +31,19 @@ Person.prototype.toString = function () {
 }
 console.log(p1)
 console.log(p1.toString())
+
+/**
+ * iterator
+ * 이터러블 객체(반복 가능한 객체)는 Symbol.iterator 키를 가진다.
+ */
+console.clear()
+const str1 = 'dog'
+const iterator = str1[Symbol.iterator]()
+// console.log(iterator)
+// console.log(iterator.next())
+// console.log(iterator.next())
+// console.log(iterator.next())
+for (const value of iterator) {
+  console.log(value)
+}
 </script>
