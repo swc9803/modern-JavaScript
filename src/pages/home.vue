@@ -15,20 +15,24 @@
 
 <script setup>
 const menus = ([
-  { link: 's1' },
-  { link: 's2' },
-  { link: 's3' },
-  { link: 's4' },
-  { link: 's5' },
-  { link: 's6' },
-  { link: 's7' },
-  { link: 's8' },
-  { link: 's9' },
-  { link: 's10' },
-  { link: 's11' },
-  { link: 's12' },
-  { link: 's13' },
-  { link: 's14' }
+  { link: 'section1' },
+  { link: 'section2' },
+  { link: 'section3' },
+  { link: 'section4' },
+  { link: 'section5' },
+  { link: 'section6' },
+  { link: 'section7' },
+  { link: 'section8' },
+  { link: 'section9' },
+  { link: 'section10' },
+  { link: 'section11' },
+  { link: 'section12' },
+  { link: 'section13' },
+  { link: 'section14' },
+  { link: 'section15' },
+  { link: 'section16' },
+  { link: 'section17' },
+  { link: 'section18' }
 ])
 </script>
 

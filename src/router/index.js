@@ -14,6 +14,10 @@ import section11 from '../pages/section11.vue'
 import section12 from '../pages/section12.vue'
 import section13 from '../pages/section13.vue'
 import section14 from '../pages/section14.vue'
+import section15 from '../pages/section15.vue'
+import section16 from '../pages/section16.vue'
+import section17 from '../pages/section17.vue'
+import section18 from '../pages/section18.vue'
 
 const routes = [
   {
@@ -22,74 +26,94 @@ const routes = [
     component: home
   },
   {
-    path: '/s1',
-    name: 's1',
+    path: '/section1',
+    name: 'section1',
     component: section1
   },
   {
-    path: '/s2',
-    name: 's2',
+    path: '/section2',
+    name: 'section2',
     component: section2
   },
   {
-    path: '/s3',
-    name: 's3',
+    path: '/section3',
+    name: 'section3',
     component: section3
   },
   {
-    path: '/s4',
-    name: 's4',
+    path: '/section4',
+    name: 'section4',
     component: section4
   },
   {
-    path: '/s5',
-    name: 's5',
+    path: '/section5',
+    name: 'section5',
     component: section5
   },
   {
-    path: '/s6',
-    name: 's6',
+    path: '/section6',
+    name: 'section6',
     component: section6
   },
   {
-    path: '/s7',
-    name: 's7',
+    path: '/section7',
+    name: 'section7',
     component: section7
   },
   {
-    path: '/s8',
-    name: 's8',
+    path: '/section8',
+    name: 'section8',
     component: section8
   },
   {
-    path: '/s9',
-    name: 's9',
+    path: '/section9',
+    name: 'section9',
     component: section9
   },
   {
-    path: '/s10',
-    name: 's10',
+    path: '/section10',
+    name: 'section10',
     component: section10
   },
   {
-    path: '/s11',
-    name: 's11',
+    path: '/section11',
+    name: 'section11',
     component: section11
   },
   {
-    path: '/s12',
-    name: 's12',
+    path: '/section12',
+    name: 'section12',
     component: section12
   },
   {
-    path: '/s13',
-    name: 's13',
+    path: '/section13',
+    name: 'section13',
     component: section13
   },
   {
-    path: '/s14',
-    name: 's14',
+    path: '/section14',
+    name: 'section14',
     component: section14
+  },
+  {
+    path: '/section15',
+    name: 'section15',
+    component: section15
+  },
+  {
+    path: '/section16',
+    name: 'section16',
+    component: section16
+  },
+  {
+    path: '/section17',
+    name: 'section17',
+    component: section17
+  },
+  {
+    path: '/section18',
+    name: 'section18',
+    component: section18
   }
 ]
 
