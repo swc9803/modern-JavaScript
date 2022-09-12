@@ -18,6 +18,7 @@ import section15 from '../pages/section15.vue'
 import section16 from '../pages/section16.vue'
 import section17 from '../pages/section17.vue'
 import section18 from '../pages/section18.vue'
+import section19 from '../pages/section19.vue'
 
 const routes = [
   {
@@ -114,6 +115,11 @@ const routes = [
     path: '/section18',
     name: 'section18',
     component: section18
+  },
+  {
+    path: '/section19',
+    name: 'section19',
+    component: section19
   }
 ]
 
