@@ -15,7 +15,7 @@
 
 <script setup>
 const menus = []
-const sectionCount = 19
+const sectionCount = 21
 for (let i = 1; i <= sectionCount; i++) {
   menus.push(`section${i}`)
 }
